@@ -4,8 +4,11 @@
 .question1 .radiopadding{
   padding: 3px;
 }
-
-.question2 img {
+.question3 img {
+  width: 200px;
+  border-radius: 20px;
+}
+.question4 img {
   width: 200px;
   border-radius: 20px;
 }
