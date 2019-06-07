@@ -1,5 +1,8 @@
 .jumbotron {
   text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  background-image: url(https://www.pngarts.com/files/2/Pattern-PNG-Pic.png);
+  background-color: #BC9199;
 }
 .question1 .radiopadding{
   padding: 3px;
@@ -9,6 +12,10 @@
   border-radius: 20px;
 }
 .question4 img {
+  width: 200px;
+  border-radius: 20px;
+}
+.question5 img {
   width: 200px;
   border-radius: 20px;
 }
