@@ -1,6 +1,6 @@
 .jumbotron {
   text-align: center;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee Shade';
   /* background-image: url(https://www.pngarts.com/files/2/Pattern-PNG-Pic.png); */
   background-color: #F7BEC8;
 }
@@ -44,7 +44,7 @@
   display: none;
 }
 body {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One';
   font-size: 10px;
 }
 h4 {

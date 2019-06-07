@@ -26,9 +26,11 @@ $(document).ready(function(){
     event.preventDefault();
   });
 
-  $(".refresh").click(function(event){
+  $(".refresh").click(function(event) {
     $(".answers").hide();
     $("form").show();
     $("submit").show();
+    $(".refresh").hide();
+    $(".radiopadding").prop('checked', true);
   })
 });
