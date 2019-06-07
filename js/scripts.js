@@ -6,8 +6,9 @@ $(document).ready(function(){
     var question3 = parseInt($("input:radio[name=favColors]:checked").val());
     var question4 = parseInt($("input:radio[name=favHouse]:checked").val());
     var question5 = parseInt($("input:radio[name=favGuest]:checked").val());
+    var question6 = parseInt($("input:radio[name=favPhoto]:checked").val());
 
-    var total = question1 + question2 + question3 + question4 + question5;
+    var total = question1 + question2 + question3 + question4 + question5 + question6;
 
     if (total <=3) {
       $(".ruby").show();
