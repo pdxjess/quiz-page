@@ -10,7 +10,7 @@ _A site that demonstrates knowledge learned in week 2 at Epicodus._
 ## Setup/Installation Requirements
 
 * Clone this repository "https://github.com/pdxjess/quiz-page"
-* To deploy project: https://pdxjess.github.io/quiz-page
+* To deploy project: "https://pdxjess.github.io/quiz-page"
 * Open the file and view in the web browser of preference.
 
 ## Known Bugs
