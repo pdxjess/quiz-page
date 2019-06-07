@@ -12,10 +12,13 @@ $(document).ready(function(){
 
     if (total <=3) {
       $(".ruby").show();
+      $("form").hide();
     } else if (total <=5) {
       $(".csharp").show();
+      $("form").hide();
     } else {
       $(".react").show();
+      $("form").hide();
     }
     event.preventDefault();
   });

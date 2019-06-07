@@ -2,7 +2,7 @@
   text-align: center;
   font-family: 'Bungee Shade', cursive;
   background-image: url(https://www.pngarts.com/files/2/Pattern-PNG-Pic.png);
-  background-color: #BC9199;
+  background-color: #F7BEC8;
 }
 .question1 .radiopadding{
   padding: 3px;
@@ -41,11 +41,26 @@
   display: none;
 }
 body {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Poiret One', cursive;
+  font-size: 10px;
 }
 h4 {
-  font-size: 30px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  background-color: lightGray;
+  padding: 4px;
 }
-button {
+.button {
   text-align: center;
+}
+.button .btn {
+  font-size: 20px;
+  background-color: lightGray;
+}
+.footer {
+  text-align: center;
+  font-family: inherit;
+}
+.row {
+  text-align:center;
 }
