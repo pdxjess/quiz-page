@@ -12,14 +12,23 @@ $(document).ready(function(){
 
     if (total <=3) {
       $(".ruby").show();
+      $(".refresh").show();
       $("form").hide();
     } else if (total <=5) {
       $(".csharp").show();
+      $(".refresh").show();
       $("form").hide();
     } else {
       $(".react").show();
+      $(".refresh").show();
       $("form").hide();
     }
     event.preventDefault();
   });
+
+  $(".refresh").click(function(event){
+    $(".answers").hide();
+    $("form").show();
+    $("submit").show();
+  })
 });
