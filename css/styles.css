@@ -19,3 +19,6 @@
   width: 200px;
   border-radius: 20px;
 }
+.ruby, .react, .csharp {
+  display: none;
+}
