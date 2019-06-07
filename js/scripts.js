@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("form").submit(function(event){
 
-    var question1 = parseInt($("input:radio[name=favMusic]:checked").val());
+    var question1 = parseInt($("input:radio[name=favFood]:checked").val());
     var question2 = parseInt($("input:radio[name=favVac]:checked").val());
     var question3 = parseInt($("input:radio[name=favColors]:checked").val());
     var question4 = parseInt($("input:radio[name=favHouse]:checked").val());
