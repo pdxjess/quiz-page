@@ -11,15 +11,15 @@ $(document).ready(function(){
     var total = question1 + question2 + question3 + question4 + question5 + question6;
 
     if (total <=3) {
-      $(".ruby").show();
+      $(".ruby").fadeIn(1000);
       $(".refresh").show();
       $("form").hide();
     } else if (total <=5) {
-      $(".csharp").show();
+      $(".csharp").fadeIn(1000);
       $(".refresh").show();
       $("form").hide();
     } else {
-      $(".react").show();
+      $(".python").fadeIn(1000);
       $(".refresh").show();
       $("form").hide();
     }
