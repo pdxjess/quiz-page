@@ -17,21 +17,53 @@
       <input id="name" name="for" value="">
     </div>
     <div class="container">
-      <div class="form-group">
-        <label for="favMusic">What is your favorite music based on the list below?</label><br>
-        <label class="radiopadding">
-          <input type="radio" id="favMusic1" name="faMusic" value="0">Folk
-        </label><br>
-        <label class="radiopadding">
-          <input type="radio" id="favMusic1" name="faMusic" value="0">Techno
-        </label><br>
-        <label class="radiopadding">
-          <input type="radio" id="favMusic1" name="faMusic" value="0">Lo-Fi
-        </label><br>
-        <label class="radiopadding">
-          <input type="radio" id="favMusic1" name="faMusic" value="0">Hip-Hop
-        </label>
-      </div>
+      <form id="form" action="index.html">
+        <h4>What is your favorite music based on the list below?</h4>
+        <div class="question1">
+          <label class="radiopadding">
+            <input type="radio" id="favMusic1" name="faMusic" value="0" checked> Folk
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favMusic2" name="faMusic" value="0"> Techno
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favMusic3" name="faMusic" value="0"> Lo-Fi
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favMusic4" name="faMusic" value="0"> Hip-Hop
+          </label>
+        </div>
+        <h4>Where would you like to vacation most?</h4>
+        <div class="question2">
+          <label class="radiopadding">
+            <input type="radio" id="favVac1" name="favVac" value="0" checked> Italy
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favVac2" name="favVac" value="0"> Germany
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favVac3" name="favVac" value="0"> Japan
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favVac4" name="favVac" value="0"> Toronto
+          </label>
+        </div>
+        <h4>What colors resonate with you most?</h4>
+        <div class="question2">
+          <label class="radiopadding">
+            <input type="radio" id="favColor1" name="favColors" value="0" checked> <img src="img/option1.png" alt="Color Palette">
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favColor2" name="favColors" value="0"> <img src="img/option2.png" alt="Color Palette">
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favColor3" name="favColors" value="0"> <img src="img/option3.png" alt="Color Palette">
+          </label><br>
+          <label class="radiopadding">
+            <input type="radio" id="favColor4" name="favColors" value="0"> <img src="img/option4.jpg" alt="Color Palette">
+          </label>
+        </div>
+      </form>
     </div>
   </body>
 </html>
