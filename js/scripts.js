@@ -6,4 +6,13 @@ $(document)ready(function(){
   var question5 = parseInt($("input:radio[name=favGuest]:checked").val());
 
   var total = question1 + question2 + question3 + question4 + question5;
+
+  if (total <=3) {
+    $(".javascript").show();
+  } else if (total <=5) {
+    $(".csharp").show();
+  } else {
+    $(".react").show();
+  }
+  event.preventDefault();
 });
