@@ -32,6 +32,5 @@ $(document).ready(function(){
     $("submit").show();
     $(".refresh").hide();
     $(".radiopadding").prop('checked', true);
-    $location.reload();
   })
 });
