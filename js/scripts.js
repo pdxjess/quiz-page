@@ -32,5 +32,11 @@ $(document).ready(function(){
     $("submit").show();
     $(".refresh").hide();
     $(".radiopadding").prop('checked', true);
-  })
+    // to discard the POST data
+    // window.location.href= window.location.href;
+    // to keep the POST data
+    // window.location.reload();
+    // This also works for clear the cache
+    location.reload(true);
+  });
 });
